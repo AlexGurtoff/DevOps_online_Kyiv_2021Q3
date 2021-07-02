@@ -19,7 +19,11 @@
 |Active VMs per Host   |1024   |50-130   |512   |
 |Maximum VMs   |4000   |800-960   |N/A  |
 
+## PART 2. WORK WITH VIRTUALBOX
+
+I downloaded and installed virtualbox and ubuntu. Then I created a virtual machine(VM) and installed ubuntu on it, after which I launched ubuntu.
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Install_and_run.jpg)
 
 
 
-The following is a summary of group commands: Start, Pause, Reset, Close (save state, send shutdown signal, poweroff), Discard Saved State, Show in File System, Sort.
+
