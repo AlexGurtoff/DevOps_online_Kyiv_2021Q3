@@ -21,9 +21,48 @@
 
 ## PART 2. WORK WITH VIRTUALBOX
 
-I downloaded and installed virtualbox and ubuntu. Then I created a virtual machine(VM) and installed ubuntu on it, after which I launched ubuntu.
+We downloaded and installed virtualbox and ubuntu. Then we created a virtual machine(VM) and installed ubuntu on it, after which we launched ubuntu.
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Install_and_run.jpg)
 
+In this screenshot you are able to see the process of cloning a VM
 
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Clone.jpg)
 
+A group of two VMs was created here
 
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Group.jpg)
+
+Here you are able to see the result of creating snapshots
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Snapshots.jpg)
+
+Ubuntu was exported to .voa file
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Exported.jpg)
+
+Here is an example on how to configure USB settings. We made USB filter with Vendor ID wich related to SteelSeries mouses, so now all devices produced by SteelSeries will be available to the guest
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Configure_USB.jpg)
+
+After that, we configured the shared folder to exchange data between the virtual machine and the host
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Shared_Folder.jpg)
+
+Then we checked all possible network modes that available in virtualbox. To check, we used the ping command. Here is one example of how we tested this for "Host Only Adapter"
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Example_of_Testing_VM1-VM2.jpg)
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Example_of_Testing_Windows-VM1.jpg)
+
+| Mode  |VM->Host|VM<-Host   |VM1<->VM2  |VM->Net   |VM<-Net   |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Not attached  |  - |  - |  - | -  | -  |
+| Host-Only  | +  |  + | +  | -  | -  |
+| Internal  |  - |  - | +  | -  | -  |
+|Bridged   | +  | +  | +  | +  | +  |
+|NAT  | +  | Only if port is open  |  - | +  | Only if port is open  |
+|NAT Network  | +  | Only if port is open  | +  | +  | Only if port is open  |
+
+We also tested the ability to manage a VM using the CLI. For example, here you are able to see the process of starting the VM from the command line
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Startvm.jpg)
