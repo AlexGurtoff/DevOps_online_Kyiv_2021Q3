@@ -36,7 +36,7 @@ Here you are able to see the result of creating snapshots
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Snapshots.jpg)
 
-Ubuntu was exported to .voa file
+Ubuntu was exported to .ova file
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Exported.jpg)
 
@@ -77,6 +77,7 @@ Here is a test to connect to this server via SSH and date command in the termina
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/MobaXterm.jpg)
 
 After that we stopped and destroyed VM
+
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Stop_and_destroy_VM.jpg)
 
 Then we created our own vagrant box from the virtual machine that we had in the virtualbox
