@@ -66,3 +66,27 @@ Then we checked all possible network modes that available in virtualbox. To chec
 We also tested the ability to manage a VM using the CLI. For example, here you are able to see the process of starting the VM from the command line
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Startvm.jpg)
+
+## PART 3. WORK WITH VAGRANT
+
+We downloaded and installed vagrant **2.2.15** (version **2.2.16** was unstable and errors occurred while working with it)
+Here is the first launch of vagrant. We also run the precise64 server
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Vagrant.jpg)
+
+Here is a test to connect to this server via SSH and date command in the terminal
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/MobaXterm.jpg)
+
+After that we stopped and destroyed VM
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Stop_and_destroy_VM.jpg)
+
+Then we created our own vagrant box from the virtual machine that we had in the virtualbox
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Vagrant2.jpg)
+
+And here is the process of building this VM
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/Up_myownbuild.jpg)
+
+And finally, checking the connection via SSH
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.1/VM_and_MobaXTerm.jpg)
