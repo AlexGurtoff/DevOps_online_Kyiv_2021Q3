@@ -19,6 +19,45 @@
 |Active VMs per Host   |1024   |50-130   |512   |
 |Maximum VMs   |4000   |800-960   |N/A  |
 
+Also I want to describe some features of the most popular hypervisors
+
+**Microsoft Hyper-V**
+
+- Persistent memory support.
+- Shielded VM updates.
+- Simple Two-Node clusters.
+- ReFS Deduplication.
+- Storage Spaces Direct improvements.
+- Windows Admin Center.
+- Encrypted subnets.
+
+**VMware vSphere**
+
+- vCenter Server: A centralized management tool used to configure, provision and manage virtual IT environments.
+- vSphere Client: vSphere 6.7 has the final version of Flash-based vSphere Web Client. Newer workflows in the updated vSphere Client release includes vSphere Update Manager, Content library, vSAN, Storage policies, Host profiles, VMware vSphere Distributed Switch topology diagram and Licensing.
+- vSphere SDKs: Provides interfaces for third-party solutions to access vSphere.
+- VM File System: Cluster file system for VMs.
+- Virtual SMP: Enables a single VM to use multiple physical processors at a time.
+- vMotion: Enables live migration with transaction integrity.
+- Storage vMotion: Enables VM file migration from one place to other without service interruption.
+- High Availability: If one server fails, VM is shifted to other server with spare capacity to enable business continuity.
+- Distributed Resource Scheduler (DRS): Assigns and balances compute automatically across hardware resources available for VMs.
+- Fault Tolerance: Generates copy of primary VM to ensure its continuous availability.
+- Distributed Switch (VDS): Spans multiple ESXi hosts and enables considerable reduction of network maintenance activities.
+
+**XenServer**
+
+- Site Recovery
+- Host Failure Protection
+- Multi-server management
+- Dynamic Memory Control
+- Active Directory Integration
+- Role-Based Administration and Control (RBAC)
+- Mixed Resource Pools with CPU Masking
+- Distributed Virtual Switch Controller
+- In Memory read caching
+- Live VM migration & Storage XenMotion 
+
 ## PART 2. WORK WITH VIRTUALBOX
 
 We downloaded and installed virtualbox and ubuntu. Then we created a virtual machine(VM) and installed ubuntu on it, after which we launched ubuntu.
