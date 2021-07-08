@@ -29,3 +29,23 @@
 
 **So, I detached the disk from the 2nd instance and attached it to the 3rd. Also I checked data inside this volume. All data have been succesfully saved.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Disk_D_attached_to_3rd_instance.jpg)
+
+**After that I launched and configured a WordPress instance with amazon Lightsail. You are able to see the result here**
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/WordPress_installed.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/WP_Admin_panel.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Created_and_attached_static_IP.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/DNS_Records_created.jpg)
+
+**Then I created my first S3 bucket and configured it. Also I used AWS CLI. I created a user AWS IAM with full access and upload files to S3 with AWS CLI. In addition, I explored additional features of the S3 and configured such things as a "Server access logging" and "Lifecycle configuration".**
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/S3_bucket_created.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/upload_successful.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Create_User_and_User_Group.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/CLI_install_and_configure.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/created_bucker_and_uploaded_file_via_CLI.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Lifecycle_S3_configuration.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Logs_S3.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Logs_S3_created.jpg)
+
+**Also I explored the possibilities of creating my own domain and domain name for my site with amazon route 53.**
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Domain_registration.jpg)
+
