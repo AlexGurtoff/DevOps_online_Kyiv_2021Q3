@@ -1,13 +1,24 @@
 **First of all, I created an AWS account and studied the basic manuals for working with AWS. Also, I created budget alerts so that I don't accidentally use more than a 1$**
+
+------------
+
+
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Budget_allerts.jpg)
+
+------------
+
 
 **Then, I reviewed the 10-minute example how to launch a Linux VM with Amazon Lightsail and repeated it.**
 
+------------
+
+
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Create_an_instance.jpg)
-
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/create_an_instance2.jpg)
-
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Connect_to_VM.jpg)
+
+------------
+
 
 **And connected via SSH using my private key.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Connect_to_VM_via_MobaXterm.jpg)
@@ -49,7 +60,7 @@
 **Also I explored the possibilities of creating my own domain and domain name for my site with amazon route 53.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Domain_registration.jpg)
 
-**Then I reviewed the example Deploy Docker Containers on Amazon Elastic Container Service (Amazon ECS), created a cluster and run the online demo application on it. **
+**Then I reviewed the example Deploy Docker Containers on Amazon Elastic Container Service (Amazon ECS), created a cluster and run the online demo application on it.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/creating_ecs.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/ECS_created.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Load_balancer.jpg)
