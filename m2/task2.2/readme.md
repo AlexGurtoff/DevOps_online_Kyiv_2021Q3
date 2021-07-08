@@ -49,3 +49,22 @@
 **Also I explored the possibilities of creating my own domain and domain name for my site with amazon route 53.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Domain_registration.jpg)
 
+**Then I reviewed the example Deploy Docker Containers on Amazon Elastic Container Service (Amazon ECS), created a cluster and run the online demo application on it. **
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/creating_ecs.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/ECS_created.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Load_balancer.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/ECS_relust.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/ECS_delete.jpg)
+
+**The last step of my work was to create a static site with S3 and using a custom domain which registered with Route 53. Since all domains in route53 are paid, I registered a free domain "pp.ua" and used it. First of all, I created 2 buckets: hurtov.pp.ua and www.hurtov.pp.ua . I made all files inside hurtov.pp.ua are public and created a hosted zone with amazon route 53. Bucket www.hurtov.pp.ua responsible for redirect requests to hurtov.pp.ua. After that, I wrote my NS on the site where I registered the domain. So,
+let's see screenshots.**
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/S3_site.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Enable_public_access_and_policy.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/hosted_zone_route53.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/Nic_UA_Domain.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m2/task2.2/My_site.jpg)
+
+
+http://hurtov.pp.ua/
+And the spare one
+http://hurtov.pp.ua.s3-website.eu-west-3.amazonaws.com
