@@ -32,7 +32,7 @@
 8ПК и 2 коммутатора. Для подключения второго коммутатора нам нужно было добавить дополнительный Fast-Ethernet порт. После этого можем подключать коммутатор и тестировать топологию. Пакеты передаются успешно.**
 
 ------------
-
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.1/Add_aditional_port.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.1/Project4_test.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.1/packet_info_project4.jpg)
 
