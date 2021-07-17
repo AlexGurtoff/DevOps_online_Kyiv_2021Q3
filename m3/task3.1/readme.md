@@ -72,7 +72,7 @@
 
 ------------
 
-**Then I transfered my local database to RDS AWS. To do this, I first created an empty database, connected to it and restored the backup. Also I executed the same queries. And at the end I dumped the database. By the way, to restore my database I used EC2 instance which was created  in the same AWS Region as RDS. I connected to this instance via SSH, then I execute commant to connect to RDS
+**Then I transfered my local database to RDS AWS. To do this, I first created an empty database, connected to it and restored the backup. Also I executed the same queries. And at the end I dumped the database. By the way, to restore my database I used EC2 instance which was created  in the same AWS Region as RDS. I connected to this instance via SSH, then I executed command to connect to RDS
 `mysql -h host_name -P 3306 -u db_master_user -p`
 And at the mysql prompt, I run the `source` command and passed it the name of my database dump file to load the data into the Amazon RDS DB instance
 `mysql> source DumpTravel.sql;`**
