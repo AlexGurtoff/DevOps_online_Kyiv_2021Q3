@@ -6,10 +6,13 @@
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/task4_2_1_scheme.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/router_settings.jpg)
+
 **Здесь можно увидеть успешную передачу пакетов в рамках одного здания, но разных этажей**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/PC3-PC6_in_one_building_successful.jpg)
+
 **А здесь можно увидеть успешную передачу пакетов между двумя разными зданиями**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/PC3-PC11_between_2_buildings_successful.jpg)
+
 **Ping через CMD между двумя зданиями. Потерь пакетов нет.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/CMD_ipconfig_and_ping1.jpg)
 
@@ -23,10 +26,13 @@
 ------------
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/task4_2_2_scheme.jpg)
-**В каждом коммутаторе были созданы VLANы. В каждый из VLAN были добавлены соответствующие PC. **
+
+**В каждом коммутаторе были созданы VLANы. В каждый из VLAN были добавлены соответствующие PC.**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/Configure_switches_VLANS.jpg)
+
 **Используя CLI маршрутизатора я создал и настроил subinterfaces. Подинтерфейсы рассматриваются роутером как отдельные, самостоятельные интерфейсы и не смотря на то что они виртуальные, настраиваются они аналогично физическим интерфейсам:**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/Route_interface_conf.jpg)
+
 **Проверяем работу сети:**
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/PC24-PC31_successful.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/Packet_info_24.jpg)
