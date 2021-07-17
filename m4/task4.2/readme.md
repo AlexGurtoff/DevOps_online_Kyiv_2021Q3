@@ -40,3 +40,23 @@
 
 ------------
 ## Задание 3:
+
+Я смоделировал локальную сеть комплекса из 5-ти одноэтажных домов. Один дом - одна рабочая група по 6 компьютеров. Сеть строится на основе маршрутизатора с одним портом. Каждая рабочая група имеет свою собственную подсеть, настроенную на коммутаторе. На центральном коммутаторе настроен транк порт. На маршрутизаторе были настроены подинтерфейсы.
+
+------------
+
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/task4_2_3_scheme.jpg)
+
+**Настройка сабинтерфейсов**
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/conf_route_task4_2_3.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/conf_result_route_task4_2_3.jpg)
+
+**Проверяем работу сети:**
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/PC10-PC17_successful.jpg)
+
+------------
+
+**Ссылки на .pkt файлы с проектами:** 
+[Project_1](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/Project_1.pkt "Project_1")
+[Project_2](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/Project_2.pkt "Project_2")
+[Project_3](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m4/task4.2/Project_3.pkt "Project_3")
