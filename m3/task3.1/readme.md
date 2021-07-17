@@ -72,19 +72,24 @@
 
 ------------
 
-**Then I transfered my local database to RDS AWS. To do this, I first created an empty database, connected to it and restored the backup. Also I executed the same queries. And at the end I dumped the database.**
+**Then I transfered my local database to RDS AWS. To do this, I first created an empty database, connected to it and restored the backup. Also I executed the same queries. And at the end I dumped the database. By the way, to restore my database I used EC2 instance which was created  in the same AWS Region as RDS. I connected to this instance via SSH, then I execute commant to connect to RDS
+`mysql -h host_name -P 3306 -u db_master_user -p`
+And at the mysql prompt, I run the `source` command and passed it the name of my database dump file to load the data into the Amazon RDS DB instance
+`mysql> source DumpTravel.sql;`**
 
 ------------
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m3/task3.1/RDS-Mysql.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m3/task3.1/AWS-Connect.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m3/task3.1/Execute-sql-queries-aws.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m3/task3.1/restore_via_EC2.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m3/task3.1/restore_via_EC2_2.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m3/task3.1/Dump-AWS.jpg)
 
 ------------
 
 ## Part 3
-In this part I created an Amazon DynamoDB Table, then I entered some data into this table and tested Query and Scan options.
+**In this part I created an Amazon DynamoDB Table, then I entered some data into this table and tested Query and Scan options.**
 
 ------------
 
