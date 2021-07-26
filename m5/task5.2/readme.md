@@ -231,14 +231,19 @@ The `chmod` command is used to change the permissions of a file or directory. Th
 It is easy to think of the permission settings as a series of bits (which is how the computer thinks about them). Here's how it works:
 
 rwx rwx rwx = 111 111 111
+
 rw- rw- rw- = 110 110 110
+
 rwx --- --- = 111 000 000
 
 and so on...
 
 rwx = 111 in binary = 7
+
 rw- = 110 in binary = 6
+
 r-x = 101 in binary = 5
+
 r-- = 100 in binary = 4
 
 Also you can change permission settings in a symbolic way, for example:
@@ -259,6 +264,7 @@ The umask command masks permission levels by qualifying them with a certain valu
 The number "2" permission (write permission) will be "filtered" from the system’s default permissions of 666 and 777 (hence the name “mask.”) From now on, the system will now assign the default permissions of 644 and 755 on new files and directories. Simply put, to calculate the permission bits for a new file or directory, we just subtract the umask value from the default value, like so.
 
 666 - 022 = 644
+
 777 - 022 = 755
 
 ------------
@@ -276,7 +282,9 @@ an example of files and directories with these attributes
 
 **Answer:**
 **SUID** - if this bit is set, then when the program is running, the id of the user from which it was launched is replaced with the id of the file owner. In fact, it allows regular users to run programs as the superuser;
+
 **SGID** - This flag works in a similar way, only the difference is that the user is considered a member of the group that the file is associated with, and not the groups to which he actually belongs. If the SGID flag is set to a directory, all files created in it will be associated with the directory group, not the user. This behavior is used to organize public folders;
+
 **Sticky-bit** - This bit is also used to create shared folders. If it is installed, then users can only create, read and execute files, but cannot delete files owned by other users.
 
 You can set these right with `chmod` command.
