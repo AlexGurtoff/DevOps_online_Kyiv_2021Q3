@@ -8,20 +8,34 @@ to define them?
 **Answer:**
 **/etc/passwd** file has the following structure: 
 alex: x : 1000 : 1000 : alex , , , : /home/alex:/bin/bash
+
 Username
+
 Password
+
 UID
+
 GID
+
 GECOS
+
 Home Directory
+
 Login shell
+
 **/etc/group** file has the following structure:
 adm: x : 4 : syslog,alex
+
 Where:
+
 **group_name:** It is the name of group. If you run ls -l command, you will see this name printed in the group field.
+
 **Password:** Generally password is not used, hence it is empty/blank. It can store encrypted password. This is useful to implement privileged groups.
+
 **Group ID (GID):** Each user must be assigned a group ID. You can see this number in your /etc/passwd file.
+
 **Group List:** It is a list of user names of users who are members of the group. The user names, must be separated by commas.
+
 
 To define users you can use command `adduser` or `useradd`
 
