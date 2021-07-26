@@ -1,6 +1,10 @@
 1) Analyze the structure of the /etc/passwd and /etc/group file, what fields are 
 present in it, what users exist on the system? Specify several pseudo-users, how 
 to define them?
+
+------------
+
+
 **Answer:**
 **/etc/passwd** file has the following structure: 
 alex: x : 1000 : 1000 : alex , , , : /home/alex:/bin/bash
@@ -35,6 +39,10 @@ To define users you can use command `adduser` or `useradd`
 ------------
 
 2) What are the uid ranges? What is UID? How to define it?
+
+------------
+
+
 **Answer:**
 A **UID** (user identifier) is a number assigned by Linux to each user on the system. This number is used to identify the user to the system and to determine which system resources the user can access.
 UID 0 (zero) is reserved for the root.
@@ -50,6 +58,10 @@ You can change the UID with the `usermod` command as follows:
 ------------
 
 3) What is GID? How to define it?
+
+------------
+
+
 **Answer:**
 Groups in Linux are defined by **GIDs** (group IDs).
 GID 0 (zero) is reserved for the root group.
@@ -65,6 +77,10 @@ You can change the UID with the `groupmod` command as follows:
 ------------
 
 4) How to determine belonging of user to the specific group?
+
+------------
+
+
 **Answer:**
 Command `groups`
 
@@ -77,9 +93,21 @@ Command `groups`
 5) What are the commands for adding a user to the system? What are the basic 
 parameters required to create a user?
 
+------------
+
+
+
 I answered on this question in the first paragraph
 
+------------
+
+
+
 6) How do I change the name (account name) of an existing user?
+
+------------
+
+
 **Answer:**
 You can change the name of an existing user with the following command
 `usermod -l new_username old_username`
@@ -91,6 +119,10 @@ You can change the name of an existing user with the following command
 ------------
 
 7) What is skell_dir? What is its structure?
+
+------------
+
+
 **Answer:**
 Directory /etc/skel/ (skel is derived from the skeleton) is used to initiate home directory when a user is first created. A sample layout of skel user files is as shown below:
 
@@ -101,6 +133,10 @@ Directory /etc/skel/ (skel is derived from the skeleton) is used to initiate hom
 ------------
 
 8) How to remove a user from the system (including his mailbox)?
+
+------------
+
+
 **Answer:**
 Here is 2 commands `userdel` and `deluser`. I showed the work of these commands in the screenshots below.
 
@@ -112,6 +148,10 @@ Here is 2 commands `userdel` and `deluser`. I showed the work of these commands 
 ------------
 
 9) What commands and keys should be used to lock and unlock a user account?
+
+------------
+
+
 **Answer:**
 To lock or unlock users you can use `passwd` command with -l and -u keys. To check the status of user you can use -S key.
 
@@ -123,6 +163,10 @@ To lock or unlock users you can use `passwd` command with -l and -u keys. To che
 
 10) How to remove a user's password and provide him with a password-free 
 login for subsequent password change?
+
+------------
+
+
 **Answer:**
 You can use the `passwd -d` command to remove the password, and `passwd -e` to expire it. In this case, the user will be able to log in without a password and then system will ask him to enter a new password
 
@@ -135,6 +179,10 @@ You can use the `passwd -d` command to remove the password, and `passwd -e` to e
 
 11) Display the extended format of information about the directory, tell about 
 the information columns displayed on the terminal.
+
+------------
+
+
 **Answer:**
 Here you can see the execution of the "ls -la" command. You can see the following file information: The file type, The file permissions, Number of hard links to the file, File owner, File group, File size, Date and Time when file was created or changed, File name. Blue names are directories. Names with dot before name are hidden.
 
@@ -146,6 +194,10 @@ Here you can see the execution of the "ls -la" command. You can see the followin
 
 12,13,14,15) What access rights exist and for whom (i. e., describe the main roles)? 
 Briefly describe the acronym for access rights. What is the sequence of defining the relationship between the file and the user? What commands are used to change the owner of a file (directory), as well as the mode of access to the file? Give examples, demonstrate on the terminal. What is an example of octal representation of access rights? Describe the umask command.
+
+------------
+
+
 **Answer:**
 On a Linux system, each file and directory is assigned access rights for the owner of the file, the members of a group of related users, and everybody else. Rights can be assigned to read a file, to write a file, and to execute a file (i.e., run the file as a program).
 
@@ -204,6 +256,10 @@ The number "2" permission (write permission) will be "filtered" from the systemâ
 
 16) Give definitions of sticky bits and mechanism of identifier substitution. Give 
 an example of files and directories with these attributes
+
+------------
+
+
 **Answer:**
 **SUID** - if this bit is set, then when the program is running, the id of the user from which it was launched is replaced with the id of the file owner. In fact, it allows regular users to run programs as the superuser;
 **SGID** - This flag works in a similar way, only the difference is that the user is considered a member of the group that the file is associated with, and not the groups to which he actually belongs. If the SGID flag is set to a directory, all files created in it will be associated with the directory group, not the user. This behavior is used to organize public folders;
@@ -219,5 +275,9 @@ For example, `chmod u+s file1`:
 ------------
 
 17) What file attributes should be present in the command script?
+
+------------
+
+
 **Answer:**
 The command script must have the "x" attribute to run the script.
