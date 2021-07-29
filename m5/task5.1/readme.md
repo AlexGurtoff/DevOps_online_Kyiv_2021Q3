@@ -37,10 +37,13 @@ Produces a multi-line format displaying all of the information
 Finger displays the user's login name, real name, terminal nameand write status (as a * after the terminal name if writepermission is denied), idle time, login time, office location andoffice phone number.
 Login time is displayed as month, day, hours and minutes, unlessmore than six months ago, in which case the year is displayedrather than the hours and minutes.
 
+To add plan you need to change ~/.plan file.
+
 ------------
 
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m5/task5.1/passwd-e.jpg)
 ![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m5/task5.1/finger-s.jpg)
+![](https://github.com/AlexGurtoff/DevOps_online_Kyiv_2021Q3/blob/master/m5/task5.1/plan_details.jpg)
 
 ------------
 
