@@ -1,0 +1,115 @@
+16:03:03.314434 IP 192.168.88.239.59917 > 239.255.255.250.1900: UDP, length 174
+16:03:03.946577 IP alex-server.56637 > router.lan.domain: 2228+ PTR? 250.255.255.239.in-addr.arpa. (46)
+16:03:04.066246 IP router.lan.domain > alex-server.56637: 2228 NXDomain 0/0/0 (46)
+16:03:04.066903 IP alex-server.56596 > router.lan.domain: 35096+ PTR? 239.88.168.192.in-addr.arpa. (45)
+16:03:04.068356 IP router.lan.domain > alex-server.56596: 35096 NXDomain 0/0/0 (45)
+16:03:04.314863 IP 192.168.88.239.59917 > 239.255.255.250.1900: UDP, length 174
+16:03:04.578410 IP 192.168.88.239.57555 > alex-server.ssh: Flags [S], seq 3861215202, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+16:03:04.578454 IP alex-server.ssh > 192.168.88.239.57555: Flags [S.], seq 3382520574, ack 3861215203, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+16:03:04.578909 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 1, win 4106, length 0
+16:03:04.586745 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 1:42, ack 1, win 502, length 41
+16:03:04.628289 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 1:29, ack 42, win 4106, length 28
+16:03:04.628289 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 29:1197, ack 42, win 4106, length 1168
+16:03:04.628329 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 29, win 502, length 0
+16:03:04.628442 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 1197, win 501, length 0
+16:03:04.629775 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 42:1098, ack 1197, win 501, length 1056
+16:03:04.630571 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 1197:1221, ack 1098, win 4101, length 24
+16:03:04.630583 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 1221, win 501, length 0
+16:03:04.639599 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 1098:1634, ack 1221, win 501, length 536
+16:03:04.679988 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 1634, win 4106, length 0
+16:03:04.778019 ARP, Request who-has router.lan tell alex-server, length 28
+16:03:04.778413 ARP, Reply router.lan is-at c4:ad:34:a8:30:46 (oui Unknown), length 46
+16:03:04.798776 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 1221:1749, ack 1634, win 4106, length 528
+16:03:04.798853 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 1749, win 501, length 0
+16:03:04.805576 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 1634:2322, ack 1749, win 501, length 688
+16:03:04.846093 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 2322, win 4103, length 0
+16:03:04.970609 IP alex-server.53839 > router.lan.domain: 5700+ PTR? 211.88.168.192.in-addr.arpa. (45)
+16:03:04.972139 IP router.lan.domain > alex-server.53839: 5700 NXDomain 0/0/0 (45)
+16:03:04.996231 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 1749:1829, ack 2322, win 4103, length 80
+16:03:04.996448 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 2322:2386, ack 1829, win 501, length 64
+16:03:05.005421 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 1829:1909, ack 2386, win 4103, length 80
+16:03:05.011119 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 2386:2450, ack 1909, win 501, length 64
+16:03:05.012111 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 1909:2421, ack 2450, win 4103, length 512
+16:03:05.013170 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 2450:2914, ack 2421, win 501, length 464
+16:03:05.030254 IP 192.168.88.239.57556 > alex-server.ssh: Flags [S], seq 2963536656, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+16:03:05.030295 IP alex-server.ssh > 192.168.88.239.57556: Flags [S.], seq 2022250048, ack 2963536657, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+16:03:05.030745 IP 192.168.88.239.57556 > alex-server.ssh: Flags [.], ack 1, win 4106, length 0
+16:03:05.038909 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 1:42, ack 1, win 502, length 41
+16:03:05.039478 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 1:25, ack 42, win 4106, length 24
+16:03:05.039566 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 25, win 502, length 0
+16:03:05.040672 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 42:1098, ack 25, win 502, length 1056
+16:03:05.043762 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 25:801, ack 1098, win 4101, length 776
+16:03:05.043763 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 801:825, ack 1098, win 4101, length 24
+16:03:05.043804 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 801, win 501, length 0
+16:03:05.043901 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 825, win 501, length 0
+16:03:05.049289 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 1098:1378, ack 825, win 501, length 280
+16:03:05.053164 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 2914, win 4101, length 0
+16:03:05.065437 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 825:1097, ack 1378, win 4100, length 272
+16:03:05.065469 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 1097, win 501, length 0
+16:03:05.072234 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 1378:2482, ack 1097, win 501, length 1104
+16:03:05.094553 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 1097:1113, ack 2482, win 4106, length 16
+16:03:05.096208 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 1113:1165, ack 2482, win 4106, length 52
+16:03:05.096335 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 1165, win 501, length 0
+16:03:05.096687 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 2482:2534, ack 1165, win 501, length 52
+16:03:05.100087 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 1165:1233, ack 2534, win 4106, length 68
+16:03:05.105784 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 2534:2586, ack 1233, win 501, length 52
+16:03:05.108035 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 1233:1733, ack 2586, win 4105, length 500
+16:03:05.109096 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 2586:3038, ack 1733, win 501, length 452
+16:03:05.149476 IP 192.168.88.239.57556 > alex-server.ssh: Flags [.], ack 3038, win 4104, length 0
+16:03:05.183553 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 1733:2633, ack 3038, win 4104, length 900
+16:03:05.190257 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 3038:3074, ack 2633, win 501, length 36
+16:03:05.192528 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 2633:2701, ack 3074, win 4103, length 68
+16:03:05.195988 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 2421:3333, ack 2914, win 4101, length 912
+16:03:05.236178 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 2701, win 501, length 0
+16:03:05.237971 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 3333, win 501, length 0
+16:03:05.271759 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 2914:2962, ack 3333, win 501, length 48
+16:03:05.272812 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 3333:3413, ack 2962, win 4101, length 80
+16:03:05.272828 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 3413, win 501, length 0
+16:03:05.316026 IP 192.168.88.239.59917 > 239.255.255.250.1900: UDP, length 174
+16:03:05.997198 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 3074:3866, ack 2701, win 501, length 792
+16:03:06.028203 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 2962:3762, ack 3413, win 501, length 800
+16:03:06.037605 IP 192.168.88.239.57556 > alex-server.ssh: Flags [.], ack 3866, win 4100, length 0
+16:03:06.037628 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 3866:4066, ack 2701, win 501, length 200
+16:03:06.043644 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 2701:2769, ack 4066, win 4106, length 68
+16:03:06.043674 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 2769, win 501, length 0
+16:03:06.044605 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 4066:4154, ack 2769, win 501, length 88
+16:03:06.051421 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 2769:2821, ack 4154, win 4105, length 52
+16:03:06.051457 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 2821, win 501, length 0
+16:03:06.051982 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 4154:4382, ack 2821, win 501, length 228
+16:03:06.061168 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 2821:2873, ack 4382, win 4105, length 52
+16:03:06.061199 IP alex-server.ssh > 192.168.88.239.57556: Flags [.], ack 2873, win 501, length 0
+16:03:06.061773 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 4382:4466, ack 2873, win 501, length 84
+16:03:06.068903 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 3762, win 4106, length 0
+16:03:06.068934 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 3762:3874, ack 3413, win 501, length 112
+16:03:06.074540 IP 192.168.88.239.57555 > alex-server.ssh: Flags [P.], seq 3413:3701, ack 3874, win 4105, length 288
+16:03:06.074584 IP alex-server.ssh > 192.168.88.239.57555: Flags [.], ack 3701, win 501, length 0
+16:03:06.076528 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 3874:4082, ack 3701, win 501, length 208
+16:03:06.077131 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4082:4194, ack 3701, win 501, length 112
+16:03:06.077539 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 4194, win 4104, length 0
+16:03:06.077824 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4194:4242, ack 3701, win 501, length 48
+16:03:06.078483 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4242:4290, ack 3701, win 501, length 48
+16:03:06.078789 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 4290, win 4104, length 0
+16:03:06.078914 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4290:4386, ack 3701, win 501, length 96
+16:03:06.079291 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4386:4434, ack 3701, win 501, length 48
+16:03:06.079748 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 4434, win 4103, length 0
+16:03:06.079878 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4434:4530, ack 3701, win 501, length 96
+16:03:06.080241 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4530:4578, ack 3701, win 501, length 48
+16:03:06.080580 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 4578, win 4103, length 0
+16:03:06.082143 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 4578:5058, ack 3701, win 501, length 480
+16:03:06.102658 IP 192.168.88.239.57556 > alex-server.ssh: Flags [.], ack 4466, win 4104, length 0
+16:03:06.116925 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 2873:2941, ack 4466, win 4104, length 68
+16:03:06.117152 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 4466:4534, ack 2941, win 501, length 68
+16:03:06.119797 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 2941:3009, ack 4534, win 4104, length 68
+16:03:06.120303 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 4534:7454, ack 3009, win 501, length 2920
+16:03:06.120729 IP 192.168.88.239.57556 > alex-server.ssh: Flags [.], ack 7454, win 4106, length 0
+16:03:06.120807 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 7454:8570, ack 3009, win 501, length 1116
+16:03:06.123802 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 5058, win 4101, length 0
+16:03:06.124618 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 3009:3077, ack 8570, win 4101, length 68
+16:03:06.124811 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 8570:8654, ack 3077, win 501, length 84
+16:03:06.128888 IP 192.168.88.239.57556 > alex-server.ssh: Flags [P.], seq 3077:3145, ack 8654, win 4101, length 68
+16:03:06.129075 IP alex-server.ssh > 192.168.88.239.57556: Flags [P.], seq 8654:8722, ack 3145, win 501, length 68
+16:03:06.130790 IP alex-server.ssh > 192.168.88.239.57555: Flags [P.], seq 5058:5138, ack 3701, win 501, length 80
+16:03:06.170485 IP 192.168.88.239.57556 > alex-server.ssh: Flags [.], ack 8722, win 4101, length 0
+16:03:06.171442 IP 192.168.88.239.57555 > alex-server.ssh: Flags [.], ack 5138, win 4100, length 0
+16:03:06.316623 IP 192.168.88.239.59917 > 239.255.255.250.1900: UDP, length 174
+

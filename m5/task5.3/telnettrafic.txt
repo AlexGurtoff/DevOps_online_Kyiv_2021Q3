@@ -1,0 +1,10 @@
+16:17:45.796407 IP 192.168.88.239.56563 > alex-server.ssh: Flags [S], seq 1097072464, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+16:17:45.796449 IP alex-server.ssh > 192.168.88.239.56563: Flags [S.], seq 3987761642, ack 1097072465, win 64240, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+16:17:45.796880 IP 192.168.88.239.56563 > alex-server.ssh: Flags [.], ack 1, win 4106, length 0
+16:17:45.804432 IP alex-server.ssh > 192.168.88.239.56563: Flags [P.], seq 1:42, ack 1, win 502, length 41
+16:17:45.845911 IP 192.168.88.239.56563 > alex-server.ssh: Flags [.], ack 42, win 4106, length 0
+16:17:46.763231 IP alex-server.60345 > router.lan.domain: 27014+ PTR? 211.88.168.192.in-addr.arpa. (45)
+16:17:46.764745 IP router.lan.domain > alex-server.60345: 27014 NXDomain 0/0/0 (45)
+16:17:46.765238 IP alex-server.44526 > router.lan.domain: 56092+ PTR? 239.88.168.192.in-addr.arpa. (45)
+16:17:46.766665 IP router.lan.domain > alex-server.44526: 56092 NXDomain 0/0/0 (45)
+
