@@ -1,4 +1,4 @@
-**Firstly, we need to configure our virtual machines settings in virtual box. VM1 with NAT adapted and Internal. VM2 only with Internal adapter. Also I configure port forwarding for SSH.**
+**Firstly, we need to configure our virtual machines settings in virtual box. VM1 with NAT adapted and Internal. VM2 only with Internal adapter. Also I configured port forwarding for SSH.**
 
 ------------
 
@@ -26,7 +26,7 @@
 
 ------------
 
-**Since the release of Ubuntu 17.10, the `netplan` utility is used to manage network configurations. Previously, for these purposes, the ifupdown script was used, the configuration files of which were located in the `/etc/network/interfaces` folder. So, we need to configure netplan on our virtual machines, for this i ran next command `sudo nano /etc/netplan/00-installer-config.yaml` **
+**Since the release of Ubuntu 17.10, the `netplan` utility is used to manage network configurations. Previously, for these purposes, the ifupdown script was used, the configuration files of which were located in the `/etc/network/interfaces` folder. So, we need to configure netplan on our virtual machines, for this i ran next command `sudo nano /etc/netplan/00-installer-config.yaml`**
 
 ------------
 
