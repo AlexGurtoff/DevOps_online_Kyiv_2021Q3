@@ -19,7 +19,7 @@ def validate_param(counter=0, len_arg=0):
 
 def discriminant(a, b, c):
     d = (b ** 2) - 4 * (a * c)
-    if d > 0:
+    if d >= 0:
         return d
     return None
 

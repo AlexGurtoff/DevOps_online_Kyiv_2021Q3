@@ -14,7 +14,7 @@ class TestSolvSquareEquation(unittest.TestCase):
         self.assertEqual(solv_square_equation.roots(64, -1, -2, 15), [-5.0, 3.0])
 
     def test_solv_square(self):
-        self.assertEqual(solv_square_equation.solv_square(-1, -2, 15), [-5.0, 3.0])
+        self.assertEqual(solv_square_equation.solv_square(1, 12, 36), [-6.0, None])
         self.assertEqual(solv_square_equation.solv_square(5, 3, 7), [None, None])
         self.assertEqual(solv_square_equation.solv_square(-1, -2, 15), [-5.0, 3.0])
 
